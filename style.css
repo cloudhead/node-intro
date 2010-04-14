@@ -1,0 +1,75 @@
+body {
+  font-family: Helvetica;
+  color: #111;
+  background: #fff;
+  text-align: left;
+}
+
+h1, h2, h3, h4 { font-weight: bold }
+blockquote {
+  padding: 0 0 0 1em;
+  font-size: 1.4em;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+pre {
+  font-family: "Bitstream Vera Sans Mono";
+  margin-left: 0px;
+}
+code {
+    letter-spacing: -0.1em;
+    word-spacing: -0.2em;
+}
+
+ul {
+  padding: 0 0 0 1em;
+}
+img {
+    border: 10px solid black;
+    margin: 0.5em;
+}
+ul {
+    text-align: left;
+}
+.bullets ul li {
+    text-align: left !important;
+    list-style-type: circle;
+}
+
+#instructions {
+  position: absolute;
+  width: 99%;
+  text-align: center;
+  background: #ffd;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ff0;
+}
+
+#slides {
+  overflow: hidden;
+  text-align: left;
+}
+
+#track {
+  width: 1000000px;
+  overflow: hidden;
+}
+
+#track > div {
+  float: left;
+  overflow: hidden;
+}
+
+#track > div .content {
+  margin: 0 0.6em;
+}
+
+#track > div .content h1 {
+  margin-bottom: 0.1em;
+}
+
+#track > div .content h1 strong {
+  text-decoration: underline;
+}
